@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.wrap-header{
+    display: flex;
+    width: 100vw;
+    height: 116px;
+    background-color: #5c5c5c;
+    justify-content: space-around;
+    align-items: center;
+    color:#fff;
+    
+}
+.logo h1{
+    display: flex;
+    
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Dancing Script';
+    color:#cc6633;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.menu ul li {
+    display: flex;
+    flex-direction: row;
+    padding-right: 3rem;
+    
+}
+.menu ul i{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+
+}
+
