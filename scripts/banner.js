@@ -1,5 +1,5 @@
 
-let time = 5000,
+let time = 4000,
     currentImageIndex = 0,
     images = document
                 .querySelectorAll(".banner img")
