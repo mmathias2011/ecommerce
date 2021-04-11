@@ -4,9 +4,16 @@
     text-decoration: none;
     list-style: none;
     
+    
+}
+body{
+    background-color:  #cccccc;;
 }
 
+/* Header */
+
 .header-wrapper{
+    position: fixed;
     display: flex;
     width: 100vw;
     height: 116px;
@@ -42,6 +49,21 @@
     padding-right: 10px;
 
 }
+.dropdown-contents{
+    
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+
+
+}
+.produtos:hover .dropdown-contents{
+    display: block;
+}
 
 /* banner */
 
@@ -49,9 +71,9 @@
     width: 100vw;
     height: 70vh;
     position: relative;
+    padding-top: 116px;
     
 }
-
 .banner img{
     position: absolute;
     opacity: 0;
@@ -64,6 +86,9 @@
     opacity: 1;
     transition: opacity 1500ms;
     overflow: hidden !important;
+    -webkit-transition:  opacity 1500ms;
+    -moz-transition:  opacity 1500ms;
+    -o-transition:  opacity 1500ms;
 }
 
 /* Section de marcas */
@@ -73,7 +98,7 @@
     width: 80%;
     height: 450px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .marcas-title h2{
     
@@ -102,3 +127,66 @@
     font-weight: 700;
 
 }
+/* section carrossel */
+
+
+.carrossel-mais-vendidos{
+    
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.carrossel-title{
+    display: flex;
+    justify-content: center;
+}
+.carrossel-title h4{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 150px 0;
+}
+.carrossel-mais-vendidos .carrossel{
+    transform: scale(0.6);
+    transition: 0.4s;
+
+}
+.carrossel-mais-vendidos img{
+    padding-left: 20%;
+}
+.carrossel-mais-vendidos  .slick-center img{
+    transform: scale(1);
+}
+.carrossel-mais-vendidos p{
+    text-align: center;
+    font-size:20px ;
+    padding: 15px 0;
+}
+.carrossel-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.carrossel-mais-vendidos a{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 22px;
+    background-color: #fff;
+    color: black;
+    margin: 15px 125px;
+    height: 40px;
+    border: 1px solid  #cc6633;
+    border-radius:25px;
+
+}
+.carrossel-mais-vendidos a:hover{
+    color: #fff;
+    background-color: #cc6633;
+}
+
+.prev{
+    padding-right: 150px;
+}
+
+
+  

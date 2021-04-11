@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
     <title>Urban</title>
 </head>
@@ -24,9 +28,17 @@
             <ul>
                 <i class="fas fa-home"></i>
                 <li class="home">HOME</li>
+                
 
                 <i class="fas fa-tshirt"></i>
                 <li class="produtos">PRODUTOS</li>
+                <div class="dropdown-contents">
+                    <ul>
+                        <li>Blusas</li>
+                        <li>Camisetas</li>
+                        <li>Tênis</li>
+                    </ul>
+                </div>
 
                 <i class="fas fa-user-circle"></i>
                 <li class="entrar">ENTRAR</li>
@@ -70,8 +82,65 @@
     </div>
     </div>
     
+
+        <div class="carrossel-title">
+            <h4>Produtos mais vendidos</h4>
+        </div>
+        <div class="carrossel-mais-vendidos">
+
+            <div>
+                <img class="carrossel"  src="../slices/Nike_corta.jpg" alt="Blusa corta venti nike"/>
+                <p>Blusa Corta Vento Nike</p>
+                <p>R$ 399,00</p>
+                <a href="#">
+                    Comprar
+                </a>
+            </div>
+            <div>
+                <img class="carrossel" src="../slices/Adidas_camiseta.jpg" alt="Camiseta Adidas Originals"/>
+                <p>Camiseta Adidas Originals</p>
+                <p>R$ 99,00</p>
+                <a href="#">
+                    Comprar
+                </a>
+            </div>
+            <div>
+                <img class="carrossel" src="../slices/Vans.jpg" alt="Tênis Vans"/>
+                <p>Tênis Vans old scholl</p>
+                <p>R$ 199,00</p>
+                <a href="#">
+                    Comprar
+                </a>
+            </div>
+            <div>
+                <img class="carrossel"  src="../slices/Nike_azul.jpg" alt="Tênis Nike SB Charge"/>
+                <p>Tênis Nike SB Charge</p>
+                <p>R$ 299,00</p>
+                <a href="#">
+                    Comprar
+                </a>
+           
+        </div>
+        </div>
+        
+
+        <div class="carrossel-nav ">
+            
+                <div class="prev" >
+                    <i class="fas fa-arrow-left" style="font-size:2.5rem"></i>
+                </div>
+
+                <div class="next" >
+                    <i class="fas fa-arrow-right" style="font-size:2.5rem"></i>
+                </div>
+        </div>
+  
+    
     <script src="https://kit.fontawesome.com/6d918bf390.js" crossorigin="anonymous"></script>
     <script src="../scripts/banner.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../scripts/carrossel.js"></script>
+
 </body>
 
 </html>
