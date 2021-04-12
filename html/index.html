@@ -5,14 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    
 
     <title>Urban</title>
 </head>
@@ -25,8 +22,7 @@
             <h1>URBAN!</h1>
         </div>  
 
-        <div class="menu menu-mobile">
-
+        <div class="menu-desktop">
             <ul>
                 <i class="fas fa-home"></i>
                 <li class="home">HOME</li>
@@ -55,16 +51,13 @@
                 
             </ul>
         </div>
-
     </div>
 
 </header>
 <body>
 
     <div class="banner">
-        <img class="selected" src="../slices/paulista.jpg" alt="Avenida Paulista">
-        <img src="../slices/semaforo.jpg" alt="Semaforo Urbano">
-        <img src="../slices/golden_gate.jpg" alt="Ponte Golden Gate">
+        <img  src="../slices/paulista.jpg" alt="Avenida Paulista">
     </div>
 
     <div class="marcas-wrapper">
@@ -126,8 +119,7 @@
                 <a href="#">
                     Comprar
                 </a>
-           
-        </div>
+            </div>
         </div>
         
 
@@ -162,7 +154,7 @@
                 <img src="../slices/mail_box.png" alt="Caixa de email" />
 
                 <div class="form">
-                    <form id="dataForm" enctype="multipart/form-data" action="../scripts/form.js"  method="POST">
+                    <form name="user-info" id="dataForm" enctype="multipart/form-data" action="../scripts/form.js">
                         <input class="input-form"  type="text" nome="nome" placeholder="Digite seu Nome..." required>
                         <input class="input-form"  type="email" email="nome" placeholder="Digite seu Email..." required> 
                         <input class="input-enviar" type="submit" value="Enviar"></input>
@@ -172,12 +164,9 @@
             </div>
             
         </div>
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
+        
+       
     <script src="https://kit.fontawesome.com/6d918bf390.js" crossorigin="anonymous"></script>
-    <script src="../scripts/banner.js"></script>
-    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="../scripts/carrossel.js"></script>
 
 </body>
